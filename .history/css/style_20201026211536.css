@@ -12,7 +12,7 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
     color: #e7e7e7;
-    background: rgb(49, 68, 56);
+    background: rgb(72, 70, 88);
 }
   
 a {
@@ -64,7 +64,7 @@ nav {
     border-bottom: 2px solid rgba(255, 255, 255, .2);
 }
 .line1 {
-    width: 20px;
+    width: 15px;
     height: 3px;
     margin: 5px 0;
     background: linear-gradient(
@@ -74,7 +74,7 @@ nav {
     );
 }
 .line2 {
-    width: 25px;
+    width: 30px;
     height: 3px;
     background: linear-gradient(
       135deg,
@@ -83,24 +83,19 @@ nav {
     );
 }
 .line3 {
-    width: 30px;
+    width: 15px;
     height: 3px;
     margin: 5px 0;
+    margin-left: 15px;
     background: linear-gradient(
       135deg,
-      rgb(27, 218, 10) 0%,
+      rgb(27, 218, 10) 0%,,
       rgb(255, 255, 255) 100%
     );
 }
 .burger-menu-icon {
     cursor: pointer;
     z-index: 999;
-    position: fixed;
-    right: 0;
-    top: 0;
-    background-color: rgba(67, 145, 47, 0.815);
-    padding: 1.2rem;
-    border-radius: 0% 0% 0% 40%;
 }
 .profile-pic {
     height: 9rem;
@@ -108,37 +103,4 @@ nav {
     border-radius: 50%;
     display: block;
     margin: 1.5rem 0;
-}
-.caption {
-    display: block;
-}
-.nav-list {
-    width: 24rem;
-    height: 100vh;
-    background-color:  rgb(69, 85, 75);
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-self: start;
-    z-index: 998;
-    transition: all 650ms ease-in-out;
-}
-.nav-list.active {
-    right: 0;
-}
-.nav-item {
-    margin: 1.2rem 0;
-}
-.nav-link {
-    opacity: 1;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    color: #cecece;
-    letter-spacing: 1.5px;
-}
-.nav-link:hover {
-    color: rgb(62, 248, 15);
 }

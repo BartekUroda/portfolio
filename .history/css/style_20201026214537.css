@@ -137,8 +137,4 @@ nav {
     font-size: 1.3rem;
     text-transform: uppercase;
     color: #cecece;
-    letter-spacing: 1.5px;
-}
-.nav-link:hover {
-    color: rgb(62, 248, 15);
 }
