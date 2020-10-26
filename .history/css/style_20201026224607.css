@@ -152,17 +152,6 @@ nav {
     opacity: 0;
 }
 .toggle .line3 {
-    width: 20px;
-    transform: rotate(45deg) translate(-5px, -6px) scalex(2);
+    transform: rotate(-45deg) translate(-5px, -6px) scalex(2);
     margin-left: 0px;
-}
-@keyframes navLinkAnimate {
-    from{
-        opacity: 0;
-        transform: translate(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translate(0px);
-    }
 }
