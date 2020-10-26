@@ -1,0 +1,39 @@
+/* ----------GLOBAL STYLES---------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 12px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #e7e7e7;
+    background: rgb(68, 66, 66);
+}
+  
+a {
+    text-decoration: none;
+    color: rgb(3, 155, 155);
+}
+  
+a:hover {
+    color: rgba(249, 105, 14, 1);
+}
+  
+ul {
+    list-style: none;
+}
+  
+p {
+    font-size: 1.4rem;
+}
+  
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
