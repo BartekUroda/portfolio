@@ -1,4 +1,4 @@
-//navbar animation etc
+//eselect elements
 const selectElement = (s) => document.querySelector(s);
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -15,7 +15,6 @@ selectElement(".burger-menu-icon").addEventListener("click", () => {
         }
     })
 });
-//navbar hiding after choose section
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         selectElement(".nav-list").classList.toggle("active");

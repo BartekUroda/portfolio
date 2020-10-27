@@ -53,7 +53,7 @@ header {
     padding: 0 1.5rem;
 }
 .nav-brand {
-    width: 7rem;
+    width: 8rem;
 }
 nav {
     width: 100%;
@@ -458,10 +458,8 @@ footer a {
     margin: 0 0.5rem;
     font-size: 2rem;
 }
-.footer-nav .footer-nav-link:hover {
-    color: rgb(231, 228, 6);
-}
-.footer-social .soc:hover {
+.footer-nav .footer-nav-link,
+.footer-social:hover {
     color: rgb(231, 228, 6);
 }
 /* ----------RESPONSIVE-MOBILE--------- */
