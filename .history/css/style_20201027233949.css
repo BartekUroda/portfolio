@@ -196,7 +196,7 @@ nav {
     overflow: hidden;
     white-space: nowrap;
     animation: typing 5s steps(33), blink 1s ease-in-out 7s infinite;
-    width: 31ch;
+    width: 32ch;
     margin: auto;
     border-right: 4px solid rgba(255, 255, 255, 1);
 }
@@ -206,7 +206,7 @@ nav {
       color: rgb(178, 249, 14);
     }
     100% {
-      width: 31ch;
+      width: 32ch;
     }
 }
 @keyframes blink {
@@ -498,7 +498,7 @@ footer a {
     }
     .main-message h2 {
       letter-spacing: 1rem;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       width: 29ch;
     }
   
