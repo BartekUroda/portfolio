@@ -195,28 +195,31 @@ nav {
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 5s steps(33), blink 1s ease-in-out 7s infinite;
-    width: 33ch;
+    animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
+    width: 27ch;
     margin: auto;
     border-right: 4px solid rgba(255, 255, 255, 1);
 }
+
 @keyframes typing {
     75% {
       width: 0ch;
-      color: rgb(178, 249, 14);
+      color: rgba(249, 105, 14, 1);
     }
     100% {
-      width: 33ch;
+      width: 27ch;
     }
-}
-@keyframes blink {
+  }
+  
+  @keyframes blink {
     0% {
       border-right: 4px solid rgba(255, 255, 255, 0);
     }
     100% {
       border-right: 4px solid rgb(194, 194, 194);
     }
-}
+  }
+  
 .main-message h3 {
     font-size: 4rem;
     margin: 1rem 0;
@@ -229,15 +232,18 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+  
 .main-message p {
     text-transform: none;
     font-size: 1.7rem;
     font-weight: 400;
 }
+  
 .intro-btn {
     display: flex;
     justify-content: center;
 }
+  
 .btn {
     margin: 0 9px;
     background: rgba(3, 155, 155);
@@ -254,12 +260,14 @@ nav {
     color: #fafafa;
     background-color: rgb(176, 189, 0);
 }
+  
 .scroll-down i {
     color: #fafafa;
     transition: color 650ms;
     margin-top: 2rem;
     font-size: 3.5rem;
 }
+  
 .scroll-down i:hover {
     color: rgb(176, 189, 0);
 }

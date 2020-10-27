@@ -195,8 +195,8 @@ nav {
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 5s steps(33), blink 1s ease-in-out 7s infinite;
-    width: 33ch;
+    animation: typing 5s steps(30), blink 1s ease-in-out 7s infinite;
+    width: 30ch;
     margin: auto;
     border-right: 4px solid rgba(255, 255, 255, 1);
 }
@@ -206,7 +206,7 @@ nav {
       color: rgb(178, 249, 14);
     }
     100% {
-      width: 33ch;
+      width: 30ch;
     }
 }
 @keyframes blink {
