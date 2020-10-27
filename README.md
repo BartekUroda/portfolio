@@ -4,5 +4,4 @@
 ### Frontend:
 - Html 5
 - Css 3
-- Bootstrap 4
-- jQuery
+- JavaScript
